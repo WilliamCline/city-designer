@@ -6,4 +6,4 @@ format: html
 
 ## July 20, 2023, Thu. -- Introduction to `git` for data science
 
-\[**Introduction to Git for Data Science**\](https://www.tutorialspoint.com/introduction-to-git-for-data-science is) is a good place to start.
+[Introduction to Git for Data Science](https://www.tutorialspoint.com/introduction-to-git-for-data-science) is a good place to start.
