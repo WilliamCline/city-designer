@@ -1,0 +1,9 @@
+---
+title: "City Designer DS Log"
+author: "Jon Cline and William Cline"
+format: html
+---
+
+## July 20, 2023, Thu. -- Introduction to `git` for data science
+
+\[**Introduction to Git for Data Science**\](https://www.tutorialspoint.com/introduction-to-git-for-data-science is) is a good place to start.
