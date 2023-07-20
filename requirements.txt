@@ -1,0 +1,14 @@
+black
+flake8
+ipython
+isort
+jupyter
+matplotlib
+numpy
+pandas
+pip
+python-dotenv
+scikit-learn
+setuptools
+wheel
+-e .
