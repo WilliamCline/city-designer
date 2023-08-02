@@ -25,7 +25,7 @@ pip install -r requirements.txt
 2.  Create `jupyter` kernel for `city-designer`
 
 ```         
-ipython kernel install --name "stac-b" --user
+ipython kernel install --name "city-designer" --user
 ```
 
 3.  When done with the project python session, type
