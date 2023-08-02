@@ -95,8 +95,8 @@ target/
 .Ruserdata
 ~
 
-# quarto
+# Quarto
 /.quarto/
 
-# venv
+# Python venv
 /venv/
