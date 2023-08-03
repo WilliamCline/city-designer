@@ -7,3 +7,17 @@ format: html
 ## July 20, 2023, Thu. -- Introduction to `git` for data science
 
 [Introduction to Git for Data Science](https://www.tutorialspoint.com/introduction-to-git-for-data-science) is a good place to start.
+
+------------------------------------------------------------------------
+
+## August 01, 2023, Tue. - William started the Udemy "2023 Python Data Analysis & Visualization Masterclass"
+
+Will reviewed all the lectures in Section 1.
+
+## August 3, 2023, Thu. -- Added Udemy Python course material to this repo
+
+Changes:
+
+-   Course Jupyter notebooks added to folder `notebooks/DataAnalysis`
+
+-   Course data added to folder `data/external/DataAnalysisCourse`
