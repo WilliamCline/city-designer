@@ -17,8 +17,8 @@ Software Requirements:
 
 ```         
 cd /path/to/city-designer
-python -m venv venv
-source venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -47,7 +47,7 @@ deactivate
 │   └── raw            <- The original, immutable data dump.
 │
 ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
+├── dotenv             <- .env file template
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
@@ -59,11 +59,15 @@ deactivate
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
+├── renv               <- Reproducible package management for R
+│   └── activate.R     <- The activation script run by the project `.Rprofile`.
+│
+├── renv.lock          <- Reproducible package management for R
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── setup.py           <- makes project pip installable (pip install -e .) so city_designer can be imported
-├── city_designer                <- Source code for use in this project.
+├── city_designer      <- Source code for use in this project.
 │   ├── __init__.py    <- Makes city_designer a Python module
 │   │
 │   ├── data           <- Scripts to download or generate data
