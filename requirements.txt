@@ -1,14 +1,19 @@
 black
+contextily
 flake8
+folium
+geopandas
 ipython
 isort
 jupyter
 matplotlib
 numpy
+OSMnx
 pandas
 pip
 python-dotenv
 scikit-learn
+seaborn
 setuptools
 wheel
 -e .
