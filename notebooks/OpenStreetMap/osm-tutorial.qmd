@@ -1,0 +1,58 @@
+---
+title: "Introduction to Open Street Map"
+author: "Jon Cline and William Cline"
+date: "August 5, 2023"
+format: html
+---
+
+## Overview
+
+The content in the this notebook is from https://github.com/yohman/OSM-workshop.
+
+## Open Street Map
+
+In this lab, you will learn how to:
+
+-   use various python libraries to search for and download Open Street Map *building* data
+
+-   categorize buildings by type
+
+-   visualize buildings on a map
+
+-   create a function to produce building maps
+
+-   create a loop to produce building maps for multiple locations
+
+Note that we will learn how to use street network analysis with OSMnx in subsequent labs.
+
+What is open street map?
+
+-   <https://www.openstreetmap.org/>
+
+Libraries we will use:
+
+-   [OSMnx](https://github.com/gboeing/osmnx)
+
+-   [pandas](https://pandas.pydata.org/)
+
+-   [geopandas](https://geopandas.org/)
+
+-   [contextily](https://github.com/geopandas/contextily)
+
+### Download visualizing Open Street Map data
+
+### Import the libraries
+```{python}
+# to download osm data
+import osmnx as ox
+
+# to import and explore data
+import pandas as pd
+
+# to manipulate and visualize spatial data
+import geopandas as gpd
+
+# to provide basemaps 
+import contextily as ctx
+```
+
