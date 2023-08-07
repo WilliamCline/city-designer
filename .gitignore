@@ -103,3 +103,6 @@ target/
 /.venv/
 
 /env/
+
+# R environment for setting RETICULATE_PYTHON
+.Renviron

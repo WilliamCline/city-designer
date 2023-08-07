@@ -3,6 +3,7 @@ title: "Introduction to Open Street Map"
 author: "Jon Cline and William Cline"
 date: "August 5, 2023"
 format: html
+jupyter: city-designer
 ---
 
 ## Overview
